@@ -1,0 +1,55 @@
+body, div {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	z-index: 10;
+	width: 100%;
+	display: table;
+}
+
+.banner {
+	position: absolute; 
+	top: 20%;
+}
+header a {
+	font-family: tahoma;
+}
+
+header img {
+	text-align: center;
+	display: block;
+	margin: auto;
+	width: 100px;
+	height: auto;
+	padding: 10px;
+}
+
+.logo {
+	background-color: black;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #006400;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #73AF59;
+}
